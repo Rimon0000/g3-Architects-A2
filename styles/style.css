@@ -1,0 +1,56 @@
+/*------ google fonts 
+----- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* common styles or utilities  */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* --------------
+header styles 
+----------------- */
+
+.container{
+    width: 100%;
+    height: 1322px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* navbar styles  */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .nav-logo{
+    width: 302px;
+    padding-left: 200px;
+    font-weight: 700;
+    font-size: 45px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-right: 200px;
+
+}
+ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #424242;
+    text-decoration: none;
+    margin-top: 43px;
+    padding: 20px;
+} 
+
+/* banner head styles  */
+.banner-head{
+    padding:0 529px 0 520px;
+}
+.section-header{
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
