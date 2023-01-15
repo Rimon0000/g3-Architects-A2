@@ -5,6 +5,9 @@
 /* common styles or utilities  */
 body{
     font-family: 'Work Sans', sans-serif;
+    border: 3px solid red;
+    width: 1920px;
+
     
 }
 /* --------------
@@ -151,4 +154,77 @@ ul li a{
     margin-top: 53px;
     width: 180px;
     text-align: center;
+}
+
+/*-----------------------
+ experience styles
+ --------------------------  */
+ .experiences{
+    width: 1440px; 
+    height: 1059px;
+ }
+.experience-container{
+    display: flex;
+    gap: 54px;
+    margin-top: 130px;
+}
+.experience-info{
+    padding-left: 270px;
+}
+.experience-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 39px;
+}
+.experience-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 586px;
+    height: 78px;
+    margin-top: 24px;
+}
+.experience{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 514px;
+    height: 111px;
+    padding: 30px;
+    grid-row-gap: 20px;
+}
+.experience .exp-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.experience .exp-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
+}
+.experience-thumbnail{
+    margin-right: 240px;
+    width: 708px;
+    height: 982px;
+    z-index: -1;
+}
+.experience-primary{
+    color: #FFFFFF;
+    width: 342px;
+    height: 200px;
+    left: 880px;
+    top: 3104px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: -68px;
+    margin-left: 858px;
+}
+.experience-primary span {
+    font-weight: 500;
+    font-size: 25px;
 }
