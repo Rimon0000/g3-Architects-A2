@@ -5,15 +5,18 @@
 /* common styles or utilities  */
 body{
     font-family: 'Work Sans', sans-serif;
+    
 }
 /* --------------
 header styles 
 ----------------- */
 
 .container{
-    width: 100%;
     height: 1322px;
+    width: 1920px;
     background-color: rgba(255, 144, 14, 0.1);
+    border: 3px solid red;
+    
 }
 
 /* navbar styles  */
@@ -24,9 +27,16 @@ header styles
 }
  .nav-logo{
     width: 302px;
-    padding-left: 200px;
+    padding-left: 228px;
     font-weight: 700;
     font-size: 45px;
+    width: 302px;
+    height: 53px;
+    margin-top: -68px;
+   
+}
+.nav-list{
+    margin-top: 63px;
 }
 ul{
     display: flex;
@@ -41,16 +51,104 @@ ul li a{
     text-align: center;
     color: #424242;
     text-decoration: none;
-    margin-top: 43px;
     padding: 20px;
 } 
 
 /* banner head styles  */
 .banner-head{
-    padding:0 529px 0 520px;
+    padding:0 529px 0 529px;
 }
-.section-header{
+.banner-title{
     font-weight: 700;
     font-size: 64px;
+    text-align: center;
+    line-height: 75px;
+} 
+.banner-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+}
+/* button styles  */
+ .banner-primary{
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 870px;
+    margin-top: 29px;
+    width: 180px;
+}
+.banner img{
+    width: 1440px;
+    height: 700px;
+    padding:0 240px 0 240px;
+    background: url(group-three-modern-architects.jpg);
+    border-radius: 8px;
+    margin-top: 60px;
+    margin-bottom: 45px;
+
+}
+
+/*------------------
+ features styles 
+-------------------- */
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 73px;
+    justify-items: center;
+    margin-top: 85px;
+}
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-column-gap: 24px;
+    padding-left: 301px;
+
+}
+.feature-img img{
+    width: 342px;
+    height: 342px;
+    background: url(business-people-with-arms-crossed.jpg);
+    border-radius: 8px;
+}
+.features-info{
+    padding-right: 301px;
+}
+.features-title{
+    font-weight: 500;
+    font-size: 45px;
+}
+.features-title .t1{
+    color: #727272;
+}
+.features-title .t2{
+    color: #131313;
+}
+.features-title.t3{
+    color: #FF900E;
+    margin-top: -45px;
+}
+.features-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 32px;
+}
+.features-primary{
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 53px;
+    width: 180px;
     text-align: center;
 }
