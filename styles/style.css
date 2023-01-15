@@ -282,4 +282,55 @@ ul li a{
     font-weight: 600;
 }
 
-/* sponsor styles  */
+/* -------------------
+sponsor styles
+-------------------  */
+.sponsor-info{
+    text-align: center;
+    margin-top: 180px;
+}
+.sponsor-info .sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponsor-info .sponsor-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-left: 689px;
+    height: 52px;
+    width: 568px;
+}
+
+.sponsor-images{
+    display: flex;
+    gap: 155px;
+    justify-content: space-between;
+    padding: 0 240px 0 240px;
+}
+.sponsor-images img{
+    width: 166.76px;
+    height: 50px;
+    mix-blend-mode: luminosity;
+}
+
+/* footer styles 
+------------- */
+.footer-container{
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-top: 130px;
+    width: 1440px;
+    height: 100px;
+    margin: 0 240px 0 240px;
+}
+.footer-container p{
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 39px 410px 39px 410px;
+
+}
+
